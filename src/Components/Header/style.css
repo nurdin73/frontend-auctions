@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bg-secondary {
+    background-color: #e02c2c;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 80px; */
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.field-mid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    align-items: center;
+}
+.field-1 {
+    display: flex;
+    flex-direction: column;
+}
+.field-1 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.field-1 ul li {
+    margin-right: auto;
+}
+.field-1 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: ease-in-out 200ms;
+}
+.field-1 ul li a:hover {
+    color: #610909;
+}
+.navbar-brand a {
+    color: cornsilk;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+.form {
+    position: relative;
+}
+.form-search {
+    padding: 10px;
+    font-size: 18px;
+    width: 500px;
+    border: none;
+    outline: none;
+}
+.btn-search {
+    border: none;
+    outline: none;
+    background-color: #e02c2c;
+    color: cornsilk;
+    width: 80px;
+    padding: 5px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    cursor: pointer;
+    transition: ease-in-out 200ms;
+}
+.btn-search:hover {
+    background-color: #bd1212;
+}
+.cart {
+    position: relative;
+    margin-left: 40px;
+}
+.btn-chart {
+    border: none;
+    outline: none;
+    background: none;
+    color: cornsilk;
+    cursor: pointer;
+    padding: 7px 10px;
+}
+.btn-chart:hover {
+    background-color: #bd1212;
+}
+.badge {
+    background-color: #610909;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 3px;
+    color: cornsilk;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav {
+    position: relative;
+    /* width: 180px; */
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-item {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.nav-item a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 500;
+    transition: ease-in-out 200ms;
+    text-transform: capitalize;
+}
+.nav-item a:hover {
+    color: #610909;
+}
+
+/* .input-time::-webkit-datetime-edit-ampm-field {
+    display: none;
+}
+input[type=time]::-webkit-clear-button {
+-webkit-appearance: none;
+-moz-appearance: none;
+-o-appearance: none;
+-ms-appearance:none;
+appearance: none;
+margin: -10px; 
+} */

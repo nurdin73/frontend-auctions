@@ -1,0 +1,21 @@
+.status {
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: seagreen;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+.btn-bid {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: #e02c2c;
+    color:#ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
